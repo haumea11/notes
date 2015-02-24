@@ -1,0 +1,65 @@
+* Template
+** Monday 
+** Tuesday 
+** Wednesday 
+** Thursday 
+** Friday 
+* 15.02.09 - 15.02.14
+** Monday
+*** School Day 					 :schedule::recurring::daily:
+    <2015-02-09 Mon 07:50> - <2015-02-09 Mon 15:13>
+*** DONE Update this file regularly throughout the day. :org::emacs::personal:
+    CLOSED: [2015-02-09 Mon 09:32]
+*** Rehearsal (may run late.) 	      :schedule::musical::rehearsal::theater:
+    <2015-02-09 Mon 15:30> - <2015-02-09 Mon 18:30>
+*** DONE Vocabulary due, and Gatsby through Ch. 5. :homework::english::vocab::gatsby:
+    DEADLINE: <2015-02-09 Mon>
+    CLOSED: [2015-02-09 Mon 07:35]
+*** DONE Worksheet on logarithms due.			     :homework::math:
+    DEADLINE: <2015-02-09 Mon>
+    CLOSED: [2015-02-09 Mon 07:35]
+*** DONE Gatsby chapter 6, notes up through that point. :homework::english::notes:
+    CLOSED: [2015-02-11 Wed 10:58] DEADLINE: <2015-02-11 Wed>
+*** DONE # 4 on p.22					     :homework::apcs:
+    CLOSED: [2015-02-10 Tue 07:54] DEADLINE: <2015-02-10 Tue>
+*** DONE Math homework, 329/7-10, 19-31 e.o.o., 41-61 e.o.o :math::homework::textbook:
+    CLOSED: [2015-02-10 Tue 07:39] DEADLINE: <2015-02-10 Tue>
+*** DONE French R34 #10, 11			 :homework::french::textbook:
+** Tuesday
+*** School Day					 :schedule::recurring::daily:
+    <2015-02-10 Mon 07:50> - <2015-02-10 Mon 15:13>
+*** Intro/Chapter1 :theology::test:
+    <2015-02-10 Tue>
+*** DONE P + A p. 44 # 17, 18, 19 (if 19 not already done?) G + V None. :homework::french::packet:
+    DEADLINE: <2015-02-11 Wed>
+*** Rehearsal (may run late.) 	      :schedule::musical::rehearsal::theater:
+    <2015-02-10 Tue 15:30> - <2015-02-10 Tue 18:30>
+*** DONE French					     :french:homework:packet:
+    CLOSED: [2015-02-11 Wed 11:06] DEADLINE: <2015-02-11 Wed>
+** Wednesday 
+*** School Day Begins 				 :schedule::recurring::daily:
+    <2015-02-11 Wed 07:50>
+*** School Day Ends				 :schedule::recurring::daily:
+    <2015-02-11 Wed 15:13>
+*** DONE Math homework, 329/47-63 e.o.o., 71, 77, 79, 93, 103, 104 :homework::math::textbook:
+    CLOSED: [2015-02-11 Wed 08:01] DEADLINE: <2015-02-11 Wed>
+*** DONE Gatsby, chapter 7 and notes up through that point. :homework::english::gatsby::reading::notes:
+    CLOSED: [2015-02-12 Thu 08:57] DEADLINE: <2015-02-12 Thu>
+*** DONE Math, 338/11-47 e.o.o., 67, 71, 97-100	   :homework::math::textbook:
+    CLOSED: [2015-02-12 Thu 08:57] DEADLINE: <2015-02-12 Thu>
+** Thursday 
+*** TODO Math homework - 338/13-53 e.o.o. and 330/52, 78, 80, 95 :homework:math:textbook:
+    DEADLINE: <2015-02-17 Tue>
+*** TODO English homework - Finish Gatsby   :homework:english:gatsby:reading:
+    DEADLINE: <2015-02-17 Tue>
+** Friday 
+*** DONE E-mails to Nicolosi, Bucher, and O'Connor.	       :school:email:
+    DEADLINE: <2015-02-14 Sat>
+*** DONE Learn whereabouts of Saturday's party		 :theater:party:cast:
+    DEADLINE: <2015-02-14 Sat 16:00>
+*** DONE Set up emacs as a viable replacement to gummi. :emacs:tech:personal:
+    DEADLINE: N/A
+*** DONE Further knowledge of org-mode		    :emacs:tech:org:personal:
+    DEADLINE: N/A
+*** TODO Get a different notebook for the variety of it :physical:org:notebook:personal:
+    DEADLINE: <2015-02-15 Sun>

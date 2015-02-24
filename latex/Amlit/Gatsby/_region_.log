@@ -1,0 +1,70 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=prv_gatsbynotes 2015.2.9)  9 FEB 2015 07:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_gatsbynotes _region_.tex
+(./_region_.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size12.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/preview.sty
+Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
+
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prtightpage.def
+\PreviewBorder=\dimen103
+)
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count87
+\hfuzz=\dimen104
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prauctex.cfg))
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prfootnotes.def)
+\pr@snippet=\count88
+\pr@box=\box26
+\pr@output=\toks14
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+)  !name(gatsbynotes.tex) !offset(71) 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+ ) 
+Here is how much of TeX's memory you used:
+ 191 strings out of 492860
+ 2820 string characters out of 6137804
+ 55865 words of memory out of 5000000
+ 3946 multiletter control sequences out of 15000+600000
+ 8163 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 22i,4n,22p,344b,147s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

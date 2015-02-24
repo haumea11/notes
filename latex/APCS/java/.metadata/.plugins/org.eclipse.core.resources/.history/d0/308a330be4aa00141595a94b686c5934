@@ -1,0 +1,388 @@
+public class Shuffler {
+
+    /**
+     * The number of consecutive shuffle steps to be performed in each call
+     * to each sorting procedure.
+     */
+    private static final int SHUFFLE_COUNT = 120;
+
+
+    /**
+     * Tests shuffling methods.
+     * @param args is not used.
+     */
+    public static void main(String[] args) {
+    	
+    	/*int[] a = {1, 7, 99};
+    	int[] b = {99, 7, 1};
+    	arePermutations(a, b);*/
+    	
+
+    	int[] coin = {0, 1, 1};
+        System.out.println("Results of " + SHUFFLE_COUNT +
+                                 " consecutive perfect shuffles:");
+        
+        for (int j = 1; j <= SHUFFLE_COUNT; j++) {
+            perfectShuffle(coin);
+            System.out.print("  " + j + ":");
+           // for (int k = 0; k < coin.length-1; k++) {
+                System.out.print(" " + coin[0]);
+           // }
+            System.out.println();
+        }
+        System.out.println();
+
+        System.out.println("Results of " + SHUFFLE_COUNT +
+                                 " consecutive efficient selection shuffles:");
+       //int[] values2 = {0, 1, 2, 3};
+        for (int j = 1; j <= SHUFFLE_COUNT; j++) {
+            selectionShuffle(coin);
+            System.out.print("  " + j + ":");
+            //for (int k = 0; k < coin.length-1; k++) {
+                System.out.print(" " + coin[0]);
+            //}
+            System.out.println("");
+        }
+    }
+
+
+    /**
+     * Apply a "perfect shuffle" to the argument.
+     * The perfect shuffle algorithm splits the deck in half, then interleaves
+     * the cards in one half with the cards in the other.
+     * @param values is an array of integers simulating cards to be shuffled.
+     */
+    public static void perfectShuffle(int[] values) {
+        int[] temp = new int[values.length];
+        int mid = values.length / 2;
+        int unshuffledPos = 0;
+        int k = 0;
+        for(; k<values.length-1; k++)
+        {
+        	temp[unshuffledPos] = values[k];
+        	unshuffledPos += 2;
+        }
+        unshuffledPos = 1;
+        for(; k<values.length; k++)
+        {
+        	temp[unshuffledPos] = values[k];
+        	unshuffledPos += 2;
+        }
+        for(k = 0; k < values.length; k++)
+        {
+        	values[k] = temp[k];
+        }
+        
+    }
+
+    /**
+     * Apply an "efficient selection shuffle" to the argument.
+     * The selection shuffle algorithm conceptually maintains two sequences
+     * of cards: the selected cards (initially empty) and the not-yet-selected
+     * cards (initially the entire deck). It repeatedly does the following until
+     * all cards have been selected: randomly remove a card from those not yet
+     * selected and add it to the selected cards.
+     * An efficient version of this algorithm makes use of arrays to avoid
+     * searching for an as-yet-unselected card.
+     * @param values is an array of integers simulating cards to be shuffled.
+     */
+    public static void selectionShuffle(int[] values) {
+        for (int k = values.length - 1; k > 0; k--)
+        {
+        	int pos = (int) (Math.random() * (k + 1));
+        	int temp = values[pos];
+        	values[pos] = values[k];
+        	values[k] = temp;
+        }
+    } 
+    public static void arePermutations(int[] v1, int[] v2) {
+    	int ll1;
+    	int ll2;
+    	ll1 = v1.length;
+    	ll2 = v2.length;
+    	if(ll1 == ll2){
+    		for(int k = 0; k <= v1.length; k++){
+    			if(v1[0] > v1[1]){
+    				v1[ll1-1] = v1[0];
+    				v1[1] = v1[ll1-1];
+    			}
+    		}
+    		for(int k = 0; k <= v1.length; k++){
+    			if(v2[0] > v2[1]){
+    				v2[ll2-1] = v2[0];
+    				v2[1] = v2[ll2-1];
+    			}
+    		}   		
+    	}
+    	if (v1.equals(v2)) {
+			System.out.println("They are permutations");
+		}
+    	else{
+    		System.out.println("No");
+    	}
+    } 
+void bubbleSort(int[] list)
+{
+  for (int outer = 0; outer < list.length - 1; outer++)
+  {
+    for (int inner = 0; inner < list.length-outer-1; inner++)
+    {
+      if (list[inner] > list[inner + 1])
+      {
+        //swap list[inner] & list[inner+1]            
+        int temp = list[inner];
+        list[inner] = list[inner + 1];
+        list[inner + 1] = temp;
+      }
+    }
+  }
+}
+}
+
+
+/****
+ * Results of 120 consecutive perfect shuffles:
+ * 1: 0 1
+2: 0 1
+3: 0 1
+4: 0 1
+5: 0 1
+6: 0 1
+7: 0 1
+8: 0 1
+9: 0 1
+10: 0 1
+11: 0 1
+12: 0 1
+13: 0 1
+14: 0 1
+15: 0 1
+16: 0 1
+17: 0 1
+18: 0 1
+19: 0 1
+20: 0 1
+21: 0 1
+22: 0 1
+23: 0 1
+24: 0 1
+25: 0 1
+26: 0 1
+27: 0 1
+28: 0 1
+29: 0 1
+30: 0 1
+31: 0 1
+32: 0 1
+33: 0 1
+34: 0 1
+35: 0 1
+36: 0 1
+37: 0 1
+38: 0 1
+39: 0 1
+40: 0 1
+41: 0 1
+42: 0 1
+43: 0 1
+44: 0 1
+45: 0 1
+46: 0 1
+47: 0 1
+48: 0 1
+49: 0 1
+50: 0 1
+51: 0 1
+52: 0 1
+53: 0 1
+54: 0 1
+55: 0 1
+56: 0 1
+57: 0 1
+58: 0 1
+59: 0 1
+60: 0 1
+61: 0 1
+62: 0 1
+63: 0 1
+64: 0 1
+65: 0 1
+66: 0 1
+67: 0 1
+68: 0 1
+69: 0 1
+70: 0 1
+71: 0 1
+72: 0 1
+73: 0 1
+74: 0 1
+75: 0 1
+76: 0 1
+77: 0 1
+78: 0 1
+79: 0 1
+80: 0 1
+81: 0 1
+82: 0 1
+83: 0 1
+84: 0 1
+85: 0 1
+86: 0 1
+87: 0 1
+88: 0 1
+89: 0 1
+90: 0 1
+91: 0 1
+92: 0 1
+93: 0 1
+94: 0 1
+95: 0 1
+96: 0 1
+97: 0 1
+98: 0 1
+99: 0 1
+100: 0 1
+101: 0 1
+102: 0 1
+103: 0 1
+104: 0 1
+105: 0 1
+106: 0 1
+107: 0 1
+108: 0 1
+109: 0 1
+110: 0 1
+111: 0 1
+112: 0 1
+113: 0 1
+114: 0 1
+115: 0 1
+116: 0 1
+117: 0 1
+118: 0 1
+119: 0 1
+120: 0 1
+
+Results of 120 consecutive efficient selection shuffles:
+1: 1 0
+2: 1 0
+3: 1 0
+4: 0 1
+5: 1 1
+6: 1 1
+7: 1 1
+8: 0 1
+9: 0 1
+10: 0 1
+11: 1 0
+12: 1 0
+13: 1 1
+14: 1 0
+15: 1 1
+16: 0 1
+17: 1 1
+18: 1 0
+19: 0 1
+20: 1 0
+21: 1 1
+22: 1 1
+23: 1 1
+24: 0 1
+25: 1 0
+26: 0 1
+27: 1 0
+28: 1 1
+29: 0 1
+30: 1 1
+31: 0 1
+32: 1 0
+33: 1 0
+34: 0 1
+35: 0 1
+36: 0 1
+37: 1 0
+38: 1 0
+39: 0 1
+40: 0 1
+41: 0 1
+42: 1 1
+43: 1 0
+44: 1 0
+45: 1 1
+46: 1 1
+47: 0 1
+48: 1 0
+49: 1 1
+50: 1 0
+51: 0 1
+52: 1 1
+53: 1 0
+54: 1 0
+55: 0 1
+56: 0 1
+57: 1 0
+58: 1 0
+59: 1 0
+60: 1 1
+61: 0 1
+62: 1 0
+63: 1 0
+64: 0 1
+65: 1 1
+66: 1 1
+67: 1 1
+68: 0 1
+69: 1 1
+70: 0 1
+71: 0 1
+72: 0 1
+73: 0 1
+74: 0 1
+75: 0 1
+76: 1 0
+77: 1 0
+78: 1 1
+79: 1 1
+80: 1 0
+81: 0 1
+82: 0 1
+83: 1 1
+84: 1 0
+85: 1 1
+86: 1 1
+87: 1 1
+88: 0 1
+89: 1 0
+90: 1 1
+91: 1 0
+92: 0 1
+93: 0 1
+94: 1 1
+95: 0 1
+96: 1 0
+97: 1 1
+98: 1 0
+99: 1 0
+100: 0 1
+101: 1 1
+102: 0 1
+103: 1 1
+104: 1 1
+105: 1 1
+106: 0 1
+107: 0 1
+108: 0 1
+109: 1 1
+110: 1 0
+111: 1 1
+112: 1 0
+113: 1 1
+114: 1 0
+115: 0 1
+116: 1 1
+117: 1 1
+118: 0 1
+119: 1 1
+120: 1 0
+*/
+ */

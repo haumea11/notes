@@ -1,0 +1,11 @@
+* P. 22 # 4
+** a. The dealMyCards() method is invoked in the newGame() method.
+** b. isLegal()
+** c. J 6 2 A 4 Null ->
+** d. Lies below:
+for (int k = 0; k <= cIndexes; k++){
+  System.out.print(cards.rank(k)+" of "+cards.suit(k));
+  if(k == cIndexes)
+    System.out.println();
+}
+** e. The only method, the question asked singular.

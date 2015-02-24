@@ -1,0 +1,56 @@
+import java.util.*;
+
+public class deck{
+	// cards contains all cards in the deck.
+	private ArrayList<card> cards;
+	
+	// size is all not dealt cards
+	private int size;
+	
+	// creates a deck with the ranks "ranks", suits "suits", values "values".  This class is a constructor for the deck class, which contains the cards.  This is the basis for decktester.
+	public deck(String[] ranks, String[] suits, int[] values){
+		ArrayList<Object> cards = new ArrayList<Object>();
+		for (int j=0; j<ranks.length; j++) {
+			for (String suitString : suits) {
+				cards.add(new card(ranks[j], suitString, values[j]));
+			}
+		}
+	// size = cards.size(); // arraylists have size, arrays have length.
+	// shuffle();
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public void shuffle() {
+		// an attempt to deal a card, remove the card, and put it back into the ArrayList and repeat
+		// to give the illusion of random chance in the shuffling.  Just as actual shuffling, this is
+		// not "truly" random, but it is essentially indistinguishable from both true random chance and
+		// from physical card shuffling.
+		
+		// using deal?
+		//this.deal();
+		//c=this.deal();
+		
+		// using array things
+		System.out.println(cards.size());
+		cards.remove(0);
+		cards.add(10);
+		System.out.println(cards.size());
+		
+	}
+	
+	public card deal(){
+		if (isEmpty()){
+			return null;
+		}
+		size--;
+		card c = cards.get(size);
+		return c;
+	}
+}

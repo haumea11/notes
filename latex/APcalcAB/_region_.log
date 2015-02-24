@@ -1,0 +1,106 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=prv_mathHW150212 2015.2.13)  13 FEB 2015 14:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_mathHW150212 _region_.tex
+(./_region_.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size11.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+fullpage.sty    1999/02/23 1.1 (PWD)
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/preview.sty
+Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
+
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prtightpage.def
+\PreviewBorder=\dimen112
+)
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count99
+\hfuzz=\dimen113
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prauctex.cfg))
+(/home/jmarkiewicz/.emacs.d/elpa/auctex-11.88.2/latex/prfootnotes.def)
+\pr@snippet=\count100
+\pr@box=\box28
+\pr@output=\toks19
+
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+)  !name(mathHW150212.tex) !offset(-3) 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.9 \section
+            {338/13-53 e.o.o. and 330/52, 78, 80, 95}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(707788+235929x30785865).
+<-><->
+      
+l.9 ...on{338/13-53 e.o.o. and 330/52, 78, 80, 95}
+                                                  
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.12 \begin{align*}
+                   
+Not a real error.
+
+! Preview: Snippet 2 ended.(4882818+0x22123812).
+<-><->
+      
+l.16 \end{align*}
+                 
+Not a real error.
+
+[2] ) 
+Here is how much of TeX's memory you used:
+ 177 strings out of 492232
+ 2592 string characters out of 6130705
+ 67337 words of memory out of 5000000
+ 4538 multiletter control sequences out of 15000+600000
+ 9741 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 22i,11n,22p,169b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on _region_.pdf (2 pages, 51662 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

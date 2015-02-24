@@ -1,0 +1,62 @@
+import java.util.*;
+
+public class deck{
+	// cards contains all cards in the deck.
+	private ArrayList<card> cards;
+	
+	// size is all not dealt cards
+	private int size;
+	
+	// creates a deck with the ranks "ranks", suits "suits", values "values".  This class is a constructor for the deck class, which contains the cards.  This is the basis for decktester.
+	public deck(String[] ranks, String[] suits, int[] values){
+		ArrayList<Object> cards = new ArrayList<Object>();
+		for (int j=0; j<ranks.length; j++) {
+			for (int i = 0; i < suits.length; i++) {
+				String suitString = suits[i];
+				cards.add(new card(ranks[j], suits[j], values[j]));
+			}
+		}
+	// size = cards.size(); // arraylists have size, arrays have length.
+	// shuffle();
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public void shuffle() {
+		// an attempt to deal a card, remove the card, and put it back into the ArrayList and repeat
+		// to give the illusion of random chance in the shuffling.  Just as actual shuffling, this is
+		// not "truly" random, but it is essentially indistinguishable from both true random chance and
+		// from physical card shuffling.
+		    Random num = new Random(); //This creates a new Random object called num
+		    
+		   for (int j= 0 ; j<cards.size(); j++)// This loop prints out the deck of cards before shuffled
+		     System.out.println((card)cards.get(j));//Have to typecast here to print out the object
+		   
+		   for (int j= 0 ; j<cards.size(); j++) // This loop loops over the size of your deck. In a standard deck it will go 0-51 or 52 cards
+		   {                                    //size is a method of ArrayList
+		     card top = cards.get(0);// This is saving the top card to top. Remember the card is a Card object
+		     cards.remove(cards.get(0));// This removes the card from the ArrayList thus from the deck
+		     cards.add(num.nextInt(cards.size()),top);// This adds the card back into the deck or the ArrayList in a random position from 0 to 51. 
+		   }                                          // You can see here now that we had to save the first card as top so knew what to put back!!!
+		   
+		   for (int j= 0 ; j<cards.size(); j++){   //This will print out the deck again so you will see they are all there but mixed up.
+		     System.out.println((card)cards.get(j));
+		  }
+		
+	}
+	
+	public card deal(){
+		if (isEmpty()){
+			return null;
+		}
+		size--;
+		card c = cards.get(size);
+		return c;
+	}
+}

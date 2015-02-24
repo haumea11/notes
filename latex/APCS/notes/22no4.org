@@ -1,0 +1,18 @@
+* P. 22 # 4
+** a. The dealMyCards() method is invoked in the newGame() method, and in the constructor.
+** b. isLegal()
+** c. 0 1 3 6 7
+** d. Lies below:
+for (int k = 0; k < cIndexes.length(); k++){
+  System.out.print(cards.rank(k) +" of "+ cards.suit(k) +"  ");
+  if(k == cIndexes.length()-1)
+    System.out.println();
+}
+** e. isLegal()
+public void printArray(int[] array){
+   int x;
+   for(int k = 0; k < array.length(); k++){
+     x += array(k);
+       System.out.print(x);
+   }
+}

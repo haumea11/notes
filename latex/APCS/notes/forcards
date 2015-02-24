@@ -1,0 +1,10 @@
+import chn.util.*; // for the consoleIO
+
+ConsoleIO console = new ConsoleIO();
+
+System.out.println("What suit am I holding?");
+Guess = console.readToken();
+if(Guess.equals(x.suit()))
+	System.out.println("Yes");
+else
+	System.out.println("No");

@@ -1,0 +1,9 @@
+p. 27
+1	Covered a while ago; summary is number of cards and rules for card removal.
+
+2	The ElevensBoard extends the board class, it is a child class and thus
+	inherits aspects and data from it.
+
+3	There are 2; isLegal and anotherPlayIsPossible.  A difference not covered 
+	by these is the number of cards on the board, handled instead in the actual
+	classes themselves.

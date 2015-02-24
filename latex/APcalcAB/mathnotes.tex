@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+
+\begin{document}
+{\bf Comments:} I figured out a way to use LaTeX a little better for my maths notes.  Gummi (or emacs) allows for constant viewing of the pdf output so writing math is made a little less complex.
+
+\section{Notes - 15.02.10}
+\begin{itemize}
+\item[1.]
+	\begin{align*}
+		\frac{d}{dx} \left[ln(8)+3ln(x)\right] &= \frac{3}{x}
+	\end{align*}
+\item[2.]
+	\begin{align*}
+		\frac{40x(5x^2-3)^3}{(5x^2-3)^4} \\
+		&=\frac{40x}{5x^2-3}
+	\end{align*}
+\item[3.] {\bf Reminder Vocab:} To find the derivative implicitly, you find $\frac{dy}{dx}$ by taking the derivative with respect to x $\left( \frac{d}{dx} \right)$
+
+\item[4.] {\bf Logarithmic Differentiation} is a different way to differentiate by taking the natural log of both sides.  Here is an example.
+	\begin{align*}
+	y &= \frac{x^2 \sqrt{5 + x}}{x^3+4}\\
+	ln(y) &= ln \frac{x^2\sqrt{5 + x}}{x^3+4}\\
+	&= 2ln(x) + \frac{1}{2}ln\left(5+x\right)-ln\left(x^3+4\right)\\
+	\frac{1}{y}\frac{dy}{dx} &= \frac{2}{x}+\frac{1}{2(5+x)}-\frac{3x^2}{x^3+4}8
+	\end{align*}
+\end{itemize}
+
+\section{Notes - 15.02.11}
+\begin{itemize}
+\item [61. ] This problem is a (severe) compression of the one from last night, and I skipped the notation of all the horrible algebra.
+	\begin{align*}
+		y^prime &= \frac{-\frac{x}{x^2+1}*x+\sqrt{x^2+1}}{x^2}
+		+\frac{1+\frac{x}{\sqrt{x^2+1}}}{x+\sqrt{x^+1}}\\
+		&= \frac{1+x^2}{x^2\sqrt{x^2+1}}
+	\end{align*}
+\item [1. ] There are some interesting things with integrals.  This set are indefinite.
+	\begin{align*}
+		\int \frac{x^2}{3-x^2}dx &= \int -\frac{1}{3}u^(-1)du\\
+		u &= 3-x^3\\ du &= -3x^2dx\\ 
+		\int -\frac{1}{3}u^(-1)du &= -\frac{1}{3}\ ln|{3-x^3}|+c\\
+	\end{align*}
+\item [2. ]
+	\begin{align*}
+		\frac{d}{dx} \Bigl[x+y-1&=ln(x^2+y^2)\\
+		1 + \frac{dy}{dx}&= \frac{2x+2y\ \frac{dy}{dx}}{x^2+y^2} \\
+	\end{align*}
+\end{itemize}
+
+\section{Notes - 15.02.12}
+\begin{itemize}
+\item [1. ] {\bf Long division} and rewriting are fun.  Here is an example of why I am lying.
+	\begin{align*}
+		\int \frac{x^3-3x^2+5}{x-3}\ dx &= \int \left(x^2 + \frac {5}{x-3}\right) \\ \\
+		\int \frac{x^2-4}{x}\ dx &= \int \left(x-\frac{4}{x}\right)
+	\end{align*}
+\item [2. ] {\bf Trig functions} are also just the coolest.  338/31 you are given csc and sec generally so you don't need to worry as much, just let $ u = 2x $
+\end{itemize}
+
+\section{Notes - 15.02.18}
+\begin{itemize}
+	\item[1. ] {\bf Inverse Functions} are functions found when one switches x and y and solves for y.  These require the function they are based on to be 1:1, essentially passing the Horizontal Line Test.  An interesting property is that $f(f^{-1}(x)) = x$.  This also applies in reverse, $f^{-1}(f(x)) = x$.  This is the {\bf Definition of Inverse Functions}.
+	
+	Interestingly enough, the graph of a function and its inverse is symmetric over $y=x$.  The {\bf Reflective Property of Inverse Functions} states that all points $(a, b)$ on a function have a corresponding point $(b, a)$ on its inverse.  To figure this out, use the increasing from derivative thing.
+	
+
+	The existence of an inverse function is based on its being a 1:1 function and its being strictly monotonic on its entire domain.  {\bf Monotonic} means that it doesn't change directions.  If a function is monotonic, it is guaranteed to be 1:1 and thus will have an inverse.
+		
+		\item[2. ] {\bf Guidelines for finding the inverse function:  }In order to find if something has an inverse, figure out if it's 1:1 first and then figure out what its inverse is.  Finding the inverse is based on swapping x and y.
+		\begin{align*}
+			f(x) &= x^3-6x^2+12x\\
+			f^\prime (x) &= 3x^2-12x+12\\
+		\end{align*}
+\end{itemize}
+\section{}
+\end{document}
