@@ -73,18 +73,47 @@
 ** Wednesday 
 *** DONE Figure out irc and the web filter.		   :personal:osc:irc:
     CLOSED: [2015-02-18 Wed 07:57] DEADLINE: <2015-02-18 Wed>
-*** TODO Prepare Gatsby study guide		    :english:gatsby:homework:
-    DEADLINE: <2015-02-20 Fri>
-*** TODO Prepare Gatsby outline and thesis Card     :english:gatsby:homework:
-    DEADLINE: <2015-02-23 Mon>
+*** DONE Prepare Gatsby study guide		    :english:gatsby:homework:
+    CLOSED: [2015-02-23 Mon 14:15] DEADLINE: <2015-02-20 Fri>
+*** DONE Prepare Gatsby outline and thesis Card	    :english:gatsby:homework:
+    CLOSED: [2015-02-23 Mon 14:15] DEADLINE: <2015-02-23 Mon>
 *** Vocab Quiz						 :english:vocab:quiz:
     <2015-02-19 Thu>
 *** Gatsby Test						:english:gatsby:test:
     <2015-02-23 Mon>
 *** Gatsby In-class Essay			   :english:gatsby:quiz:test:
     <2015-02-24 Tue>
-*** TODO 347/ 5, 9-12, 17, 23, 29, 37, 47, 63, 71, 75, 77, 101-104 :math:homework:
-    DEADLINE: <2015-02-19 Thu>
+*** DONE 347/ 5, 9-12, 17, 23, 29, 37, 47, 63, 71, 75, 77, 101-104 :math:homework:
+    CLOSED: [2015-02-25 Wed 11:14] DEADLINE: <2015-02-19 Thu>
 ** Thursday 
 ** Friday 
 * 15.02.23 - 15.02.28
+** Monday 
+*** DONE [#A] Prepare for Math Quiz				  :math:quiz:
+    CLOSED: [2015-02-25 Wed 11:07] DEADLINE: <2015-02-24 Tue>
+*** TODO [#A] Prepare for English Test			:english:test:gatsby:
+    DEADLINE:<2015-02-26 Thu>
+*** TODO [#A] Prepare for Gatsby In-class Essay :english:essay:gatsby:homework:
+    DEADLINE: <2015-02-27 Fri>
+*** DONE [#B] APCS anotherPlayIsPossible Method		 :homework:apcs:java:
+    CLOSED: [2015-02-25 Wed 11:08] DEADLINE: <2015-02-24 Tue>
+    NOTES: Apparently this method is very small and uses the OR operator (||)
+*** COhPUG monthly meeting		   :python:go:language:SBHC:schedule:
+    <2015-02-23 Mon 18:30>
+    NOTES: This meeting will be over the Go programming language.  Apparently
+    this is a language bearing similarities to C and python at the same time,
+    but it lacks the adoption of either, which is interesting.
+*** TODO [#C] Tune the Seiko 5 for accuracy	 :personal:maintenance:watch:
+    DEADLINE: <2015-03-09 Mon>
+    NOTES: Low priority.  Use audacity, iirc.
+** Tuesday 
+*** Today was a snow day.  Let us revel in the fact we did no work on this day.
+** Wednesday 
+*** TODO [#A] Optional (no longer) assignment in Calc	 :homework:calc:math:
+    DEADLINE: <2015-03-02 Mon 07:45>
+    NOTES: Due directly to O'Connor's office, as with the previous one.  Have
+    fun.  Check with Shannon here.  Possibly typeset for LaTeX practice.
+*** TODO [#C] APCS something or other			 :homework:apcs:what:
+    DEADLINE: <2015-02-26 Thu>
+** Thursday 
+** Friday 
