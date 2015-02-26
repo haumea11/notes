@@ -91,8 +91,8 @@
 ** Monday 
 *** DONE [#A] Prepare for Math Quiz				  :math:quiz:
     CLOSED: [2015-02-25 Wed 11:07] DEADLINE: <2015-02-24 Tue>
-*** TODO [#A] Prepare for English Test			:english:test:gatsby:
-    DEADLINE:<2015-02-26 Thu>
+*** DONE [#A] Prepare for English Test			:english:test:gatsby:
+    CLOSED: [2015-02-26 Thu 07:55] DEADLINE:<2015-02-26 Thu>
 *** TODO [#A] Prepare for Gatsby In-class Essay :english:essay:gatsby:homework:
     DEADLINE: <2015-02-27 Fri>
 *** DONE [#B] APCS anotherPlayIsPossible Method		 :homework:apcs:java:
@@ -113,7 +113,7 @@
     DEADLINE: <2015-03-02 Mon 07:45>
     NOTES: Due directly to O'Connor's office, as with the previous one.  Have
     fun.  Check with Shannon here.  Possibly typeset for LaTeX practice.
-*** TODO [#C] APCS something or other			 :homework:apcs:what:
+*** TODO [#B] APCS something or other			 :homework:apcs:what:
     DEADLINE: <2015-02-26 Thu>
 ** Thursday 
 ** Friday 
