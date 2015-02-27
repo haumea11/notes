@@ -74,7 +74,7 @@
 		\end{align*}
 \end{itemize}
 \section{Notes - 15.02.25}
-Thus begins the 
+Thus begins the reign of the great Marchi.
 \begin{enumerate}
 	\item Trig functions should be mechanical.  Even if the unit circle remains unmemorized, the 2 special triangles can be used to bring any special angle to bear.
 	\item The sine of an angle is the output, the arcsin of the output is an angle.  Not tough.
@@ -96,5 +96,39 @@ Thus begins the
 		(2\cos x + 1)(\cos x -1) &= 0 \\
 	\end{align*}
 	However, one of the answers that this yields, $\frac{4\pi}{3}+k$, yields a false answer.  This comes from the fact we had to square at the beginning to get anywhere with what we know.  This highlights the importance of checking work.
+\end{enumerate}
+\section{Notes - 15.02.26}
+\begin{enumerate}
+	\item While the multiplicative inverse is the same as the reciprocal, the inverse and the reciprocal are different things.
+	\item The graph of csc is parabolae, or seemingly so, the domain of which being all reals except $0 +- \pi k $.  Secant is the same but shifted, as expected of something cosine-related.  Cotangent is fairly similar to tangent, but differently placed.
+	\item Evenness, oddness, etc: one can determine if something is even by whether $f(x) = f(-x)$.  Symmetry over the y axis also applies.  Odd functions follow $f(-x) = -f(x)$.  Sin is odd, cos is even, obviously.  Csc is odd, Sec is even.  Tan is 
+	\begin{align*}
+	f(t) &= |\csc t| \\
+	f(-t) &= |\csc -t| \\
+	\end{align*}
+	\item Think about Implicit differentiation, like this:
+	\begin{align*}
+	9x^2+4y^2 &= 36 \\
+	18x + 8y \frac{dy}{dx} &= 0 \\
+	\frac{dy}{dx} &= \frac{-9x}{4y}
+	\end{align*}
+	\item Trick for Implicit diff: numerator, treat y as though it were a constant.  Denominator, treat x as though it were a constant.  Ask someont to explain this a little more in depth at some point.
+	\begin{align*}
+	4x^2y -3y &= x^3 - 1 \\
+	\frac{dy}{dx} &= - \frac{8xy-3x^2}{4x^2-3}\\ 
+	\end{align*}
+	\item Logarithmic differentiation: it is helpful to use both logarithms and implicit differentiation to deal with all of life's problems.  For example:
+	\begin{align*}
+		y &= x^x \\
+		\ln y &= \ln x^2 \\
+		\ln y &= x\ln x\\
+		\frac{1}{y} \frac{dy}{dx} &= x \frac{1}{x} + \ln x \\
+	\end{align*}
+	\item Logarithmic differentiation offers an alternative to the quotient rule, as well.  Instead of dealing with fractions that leave one wanting to vomit tremendously, the laws of logarithms can be applied to add and subtract things.  So instead of the fraction:
+	\begin{align*}
+		y &= \frac{(x-3)^4(x^2+1)}{(2x+5)^3} \\
+	\end{align*}
+	You can have:
+	$$ \ln y = \ln (x-3)^4 + \ln (x^2+1) - \ln (2x+5)^3 $$
 \end{enumerate}
 \end{document}
