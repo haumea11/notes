@@ -137,6 +137,6 @@ Thus begins the reign of the great Marchi.
 	\item Storing values saves the problem of rounding, and can be helpful if a value is used again and again.
 	\item For programming Riemann Sums etc. use the list menu and take a sequence.  It follows the syntax \texttt{seq(expression, variable, start, stop, scale)}, and can be stored as a list. Sto L1 lets you hit Stat then Edit to look at the lists.  List then Sum(L1) will give you the value of the Riemann Sum you input.
 	\item There is a way to do that without storing it as a list, but storing it as a list makes it seem like you did the work by giving you the values.  You can do L/R/Midpt Riemann sums with the same setup and different start/end values.
-	\item Trapezoid rule is trickier than the other one, because outside values are used only once.  This runs into using two lists.
+	\item Trapezoid rule is trickier than the other one, because outside values are used only once.  This runs into using two lists.  Sequence is super useful.
 \end{enumerate}
 \end{document}
