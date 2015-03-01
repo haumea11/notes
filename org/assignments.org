@@ -109,7 +109,7 @@
 ** Tuesday 
 *** Today was a snow day.  Let us revel in the fact we did no work on this day.
 ** Wednesday 
-*** TODO [#A] Optional (no longer) assignment in Calc	 :homework:calc:math:
+*** TODO [#A] Optional (no longer) assignment in Calc	 :homework:calculus:math:
     DEADLINE: <2015-03-02 Mon 07:45>
     NOTES: Due directly to O'Connor's office, as with the previous one.  Have
     fun.  Check with Shannon here.  Possibly typeset for LaTeX practice.
