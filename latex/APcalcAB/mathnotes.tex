@@ -137,6 +137,33 @@ Thus begins the reign of the great Marchi.
 	\item Storing values saves the problem of rounding, and can be helpful if a value is used again and again.
 	\item For programming Riemann Sums etc. use the list menu and take a sequence.  It follows the syntax \texttt{seq(expression, variable, start, stop, scale)}, and can be stored as a list. Sto L1 lets you hit Stat then Edit to look at the lists.  List then Sum(L1) will give you the value of the Riemann Sum you input.
 	\item There is a way to do that without storing it as a list, but storing it as a list makes it seem like you did the work by giving you the values.  You can do L/R/Midpt Riemann sums with the same setup and different start/end values.
-	\item Trapezoid rule is trickier than the other one, because outside values are used only once.  This runs into using two lists.
+	\item Trapezoid rule is trickier than the other one, because outside values are used only once.  This runs into using two lists.  Sequence is super useful.
+\end{enumerate}
+\section{Notes On Chapter 5}
+\subsection{Section 5.5 - Bases other than e}
+\begin{enumerate}
+	\item Exponential Functions are functions that take the form $a^x$.  Any function taking the form of $a^x$ can also be written as $e^{\ln a^x}$.  This means $a^x = e^{a\ln x}$.  This means any exponential can be written in terms of the natural logarithmic function.
+	\item The {\bf Change of Base} formula is as follows:
+	$$ \log{a}{x} = \frac{\ln x}{\ln a} $$
+	\item Properties of Inverse Functions are thus:
+	\begin{enumerate}
+		\item $y = a^x$ if and only if $x = \log{a}{y}$
+		\item $a^{log{a}{x}} = x$ for all $x>0$
+		\item $\log{a}{a^x} = x$ for all x
+	\end{enumerate}
+	\item The general formula for exponentials to a power u is:
+	$$ \frac{d}{dx} a^u = u^\prime(\ln a)a^u $$
+	\item The above is a very useful shortcut for the use of actual rules in problems.  Do not view it as a plain formula.  Here are some other formulae useful in similar things:
+	\begin{enumerate}
+		\item $ \frac{d}{dx}[a^x] = (\ln a ) a^x $
+		\item $ \frac{d}{dx}[\log{a}{x}] = \frac{1}{(\ln a )x} $
+		\item $ \frac{d}{dx}[\log{a}{u}] = \frac{1}{(\ln a )x} $
+	\end{enumerate}
+\end{enumerate}
+\subsection{}
+\begin{enumerate}
+	\item Interesting way to define e:
+	$$ \lim x \to \infty \left( 1 + \frac{1}{x}\right)^x = \lim x \to \infty \left( \frac{x+1}{x}\right)^x $$
+	The book calls this "A limit involving e." It's on page 364.
 \end{enumerate}
 \end{document}
