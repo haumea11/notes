@@ -1,5 +1,0 @@
-import apcslib.DrawingTool;
-
-public class kochcurvetool extends DrawingTool {
-	
-}

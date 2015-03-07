@@ -3,7 +3,11 @@
 \usepackage{amsmath}
 
 \begin{document}
-{\bf Comments:} I figured out a way to use LaTeX a little better for my maths notes.  Gummi (or emacs) allows for constant viewing of the pdf output so writing math is made a little less complex.
+{\bf Comments:} I figured out a way to use LaTeX a little better for my maths 
+notes.  Gummi (or emacs) allows for constant viewing of the pdf output so 
+writing math is made a little less complex. \\
+{\bf Edit:} I now have vim macros, set up to be a more than competent 
+replacement for any IDE.
 
 \section{Notes - 15.02.10}
 \begin{itemize}
@@ -160,10 +164,32 @@ Thus begins the reign of the great Marchi.
 		\item $ \frac{d}{dx}[\log{a}{u}] = \frac{1}{(\ln a )x} $
 	\end{enumerate}
 \end{enumerate}
-\subsection{}
+\subsection{Defining e}
 \begin{enumerate}
 	\item Interesting way to define e:
 	$$ \lim x \to \infty \left( 1 + \frac{1}{x}\right)^x = \lim x \to \infty \left( \frac{x+1}{x}\right)^x $$
 	The book calls this "A limit involving e." It's on page 364.
+\end{enumerate}
+\subsection{Inverse Trig Functions}
+\begin{enumerate}
+	\item No trig function is 1:1, but any one of them can be limited in order 
+		to talk about its inverse functions.
+	\item Arcsin can be understood as ``The sin of what is equal to\dots?'' or 
+		some similar concept.  In this sense, arcsin is to sin as ln is to $e^x$.  
+		\begin{enumerate}
+			\item $\arctan 1 = \frac{\pi}{4}$
+			\item $\arccsc \frac{2}{\sqrt{3}} = \frac{\pi}{3}$
+			\item $\arcsin -\frac{\sqrt{3}}{2} = -\frac{\pi}{3}$
+			\item $\arctan (-1) = -\frac{\pi}{4}$
+			\item $\arccsc (-2) = -\frac{\pi}{6}$
+			\item $\arctan (-\sqrt{3}) = x$
+			\item $\arccos \frac{1}{2} = \frac{\pi}{3}$
+			\item $\arccos \frac{\sqrt {3}}{2} = \frac{\pi}{6}$
+			\item $\arccos - \frac{\sqrt {3}}{2} = \frac{5\pi}{6}$
+		\end{enumerate}
+		You get the idea, but essentially this is the principle of it; Inverse 
+		trig functions aren't that difficult.
+	\item In trig, just draw triangles.  Do it.  That's all you need.  It 
+		really works wonders.
 \end{enumerate}
 \end{document}
