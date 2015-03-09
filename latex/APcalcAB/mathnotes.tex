@@ -2,6 +2,10 @@
 \usepackage{fullpage}
 \usepackage{amsmath}
 
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+
 \begin{document}
 {\bf Comments:} I figured out a way to use LaTeX a little better for my maths 
 notes.  Gummi (or emacs) allows for constant viewing of the pdf output so 
@@ -192,4 +196,41 @@ Thus begins the reign of the great Marchi.
 	\item In trig, just draw triangles.  Do it.  That's all you need.  It 
 		really works wonders.
 \end{enumerate}
+\subsection{\dots And How to Use Them.}
+\begin{enumerate}
+	\item $\frac{d}{dx}[y = \arcsin(x)] = \frac{d}{dx}[\sin y = x]$, hence 
+		$\cos y \frac{dy}{dx} = 1$ so 
+		$$\frac{dy}{dx} = \frac{1}{\cos y} = \frac{1}{\sqrt{\sin y} =
+		\frac{1}{\sqrt{\arcsin x}}}$$
+	\item Similarly, here's arccos.
+		\begin{align}
+			\frac{d}{dx}\arccos x &= \frac{d}{dx}\left[cos y = x\right] \\
+			-\sin y \frac{dy}{dx} &= 1 \\
+			\frac{dy}{dx} = \frac{-1}{\sqrt{1-x^2}}
+		\end{align}
+	\item Here are the rules for all derivatives of inverse trig functions:
+		\begin{align}
+			\setcounter{equation}{0}
+%			\frac{d}{dx} \arctan x &= \frac{d}{dx}\left[tan y = x\right] \\
+%			\csc ^2 (y) &= 1 \\
+%			\csc ^2 (arcsin x)\frac{dy}{dx} &= 1
+			\frac{d}{dx}\arcsin u &= \frac{u^\prime}{\sqrt{1-u^2}} \\
+			\frac{d}{dx}\arccos u &= \frac{u^\prime}{\sqrt{1-u^2}} \\
+			\frac{d}{dx}\arctan u &= \frac{u^\prime}{u^2+1} \\
+			\frac{d}{dx}\arccot u &= \frac{-u^\prime}{u^2+1} \\
+			\frac{d}{dx}\arcsec u &= \frac{u^\prime}{|u|\sqrt{u^2-1}} \\
+			\frac{d}{dx}\arccsc u &= \frac{-u^\prime}{|u|\sqrt{u^2-1}}
+		\end{align}
+		Notice how $\frac{d}{dx \arccos u} = - \frac{d}{dx} \arcsin u$ and the 
+		rest of those statements apply here.
+	\item And here is some practice:
+		\begin{align}
+			\setcounter{equation}{0}
+			y &= \arcsin x + x \sqrt{1-x^2} \\
+			&= \frac{2-2x^2}{\sqrt{1-x^2}} \\
+			\frac{dy}{dx} &= \frac{1}{\sqrt{1-x^2}} + \frac{-x^2}{\sqrt{1-x^2}}
+			+ \sqrt{1-x^2} \\
+			&= 2\sqrt{1-x^2}
+		\end{align}
+	\end{enumerate}
 \end{document}

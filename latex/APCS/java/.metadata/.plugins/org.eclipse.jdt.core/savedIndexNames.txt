@@ -1,2 +1,5 @@
 INDEX VERSION 1.127+/home/jmarkiewicz/git/notes/latex/APCS/java/.metadata/.plugins/org.eclipse.jdt.core
+4135625089.index
+2034872172.index
 665215705.index
+3380434345.index
