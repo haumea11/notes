@@ -49,22 +49,82 @@
 	\item[27. ] Write in ``Algebraic'' form.
 		\[\csc\left(\arctan \frac{x}{\sqrt{2}}\right) = \frac{\sqrt{x^2+2}}{x}\]
 	\end{enumerate}
-\subsection{378/41-65 e.o.o.; 75, 83-88 (Section 5.6, day 2)}
+\subsection{378/41-65 e.o.o. (Section 5.6, day 2)}
 \begin{enumerate}
 	\item[41. ] Find the derivative.
 		\begin{align}
-			f(x) &= 2 \arcsin (x-1)
+			f(x) &= 2 \arcsin (x-1) \\
+			\frac{dy}{dx} &= \frac{2}{\sqrt{1-(x-1)^2}} \\
+			%% ^ This line is by the derivative of arcsin as given in 5.6
+			&= \frac{2}{\sqrt{1-(x^2-2x+1)}} \\
+			&= \frac{2}{\sqrt{2x-x}}
 		\end{align}
 	\item[45. ] Find the derivative.
 		\begin{align}
 			\setcounter{equation}{0}
 			f(x) &= \arctan \frac{x}{a} \\ %We're assuming, of course, a is a constant.
+			%% Again, we use the derivative formulae.  We've seen these
+			%% done by others, but this is an implementation where it's much
+			%% faster to do it using the formula.
+			\frac{dy}{dx} &= \frac{\frac{1}{a}}{(\frac{x}{a})^2+1} \\
+			&= \frac{1}{a\left(\frac{x}{a}\right)^2+a} \\
+			&= \frac{1}{\frac{x^2}{a}+a} \\
+			&= \frac{a}{x^2+a^2}
+			%% Should get mention tomorrow.  Not sure if it really makes sense 
+			%% for this to be a^2.
 		\end{align}
 	\item[49. ] Find the derivative.
 		\begin{align}
 			\setcounter{equation}{0}
-			f(x) &= \sin (\arccos t)
+			f(x) &= \sin (\arccos t) \\
+			\frac{dy}{dx} &= \left[\cos (\arccos t)\right] 
+			\left[\frac{-1}{\sqrt{1-t^2}}\right] \\
+			&= \frac{-\cos(\arccos t)}{\sqrt{1-t^2}} \\
+			&= \frac{-t}{\sqrt{1-t^2}}
 		\end{align}
 	\item[53. ] Find the derivative.
+		\begin{align}
+			\setcounter{equation}{0}
+			y &= \frac{1}{2}\left[\frac{1}{2}\ln\frac{x+1}{x-1}+\arctan x\right] \\
+			&= \frac{1}{4}\ln\frac{x+1}{x-1}+\frac{1}{2}\arctan x \\ 
+			y &= \frac{1}{4}\ln (x+1) - \frac{1}{4}\ln (x-1) + \frac{1}{2}\arctan x\\
+			\frac{dy}{dx} &= 1\left(\frac{1}{4x+4}\right) - 
+			1\left(\frac{1}{4x-4}\right) + \frac{1}{2x^2+2} \\
+			&= \frac{1}{4x+4} - \frac{1}{4x-4} + \frac{1}{2x^2+2}
+		\end{align}
+		\\ Notes: I had issue with these problems.  Here's the solution as
+		given in class:
+	\item[53. ] Again.
+		\begin{align}
+			\setcounter{equation}{0}
+			y &= \frac{1}{2}\left[\frac{1}{2}\ln\frac{x+1}{x-1}+\arctan x\right] \\
+			&= \frac{1}{4}\ln(x+1) - \frac{1}{4} \ln (x-1) + \frac{1}{2}\arctan x \\
+			\frac{dy}{dx} &= \frac{1}{4(x+1)} - \frac{1}{4(x-1)}+\frac{1}{2(x^2+1)} \\
+			&= \frac{-x^2-1+x^2-1}{2(x^2+1)(x^2-1)} \\
+			&= \frac{-1}{x^4-1}
+		\end{align}
+	\item[57. ]
+		\begin{align}
+			\setcounter{equation}{0}
+			y &= \frac{1}{2}\left[\frac{1}{2}\ln\frac{x+1}{x-1}+\arctan x\right] \\
+			\frac{dy}{dx} &= \frac{2}{\sqrt{1-\left(\frac{x}{4}\right)}} 
+			- \frac{1}{2}\left[\sqrt{16-x^2} + \frac{-2x^2}{2\sqrt{16-x^2}}\right] \\
+			&= \frac{2}{\sqrt{\frac{16-x^2}{16}}} - \frac{1}{2}\left[\sqrt{16-x^2
+			+ \frac{-2x^2}{2\sqrt{16-x^2}}}\ \right] \\
+			&= \frac{8}{\sqrt{16-x^2}} - \frac{\sqrt{16-x^2}}{2} + \frac{x^2}
+			{2\sqrt{16-x^2}} \\
+			&= \frac{16 - (16-x^2)+x^2}{2\sqrt{16-x^2}} \\
+			&= \frac{x^2}{\sqrt{16-x^2}}
+		\end{align}
+	\end{enumerate}
+	\subsection{385/1-41 e.o.o. ; 47; 63}
+	\begin{enumerate}
+		\item[1. ] Find the Integral.
+			\begin{align}
+				\int \frac{5}{\sqrt{9-x}} dx
+			\end{align}
+		\item[5. ] Find the Integral.
+			\begin{align}
+				\int \frac{1}{}<++>
 	\end{enumerate}
 \end{document}
