@@ -35,10 +35,10 @@ public class Magpie2
 		{
 			response = "Why so negative?";
 		}
-		else if (statement.toLowerCase().indexOf("mother") >= 0
-				|| statement.toLowerCase().indexOf("father") >= 0
-				|| statement.toLowerCase().indexOf("sister") >= 0
-				|| statement.toLowerCase().indexOf("brother") >= 0)
+		else if (statement.indexOf("mother") >= 0
+				|| statement.indexOf("father") >= 0
+				|| statement.indexOf("sister") >= 0
+				|| statement.indexOf("brother") >= 0)
 		{
 			response = "Tell me more about your family.";
 		}
@@ -46,8 +46,8 @@ public class Magpie2
 		{
 			response = "INFORM ME OF THINE PETS.";
 		}
-		else if (statement.toLowerCase().indexOf("janet") >= 0 ||
-				statement.toLowerCase().indexOf("anthony") >= 0)
+		else if (statement.indexOf("Janet") >= 0 || statement.indexOf("Anthony") >= 0 || statement.indexOf("janet") >= 0 ||
+				statement.indexOf("anthony") >= 0)
 		{
 			response = "She's pretty cool, that Ms. Anthony.";
 		}
@@ -79,7 +79,7 @@ public class Magpie2
 		}
 		else if (whichResponse == 2)
 		{
-			response = "Do you -really- think so?";
+			response = "Do you really think so?";
 		}
 		else if (whichResponse == 3)
 		{
@@ -87,7 +87,7 @@ public class Magpie2
 		}
 		else if (whichResponse == 4)
 		{
-			response = "fear me;";
+			response = "dank memes;";
 		}
 		else if (whichResponse == 5)
 		{
@@ -97,48 +97,3 @@ public class Magpie2
 		return response;
 	}
 }
-/*
-1st Question - One could use an Array List to
-			store a set of combination responses
-			to the sets of words.
-
-2nd Question - Use spaces? Otherwise the word-in-word
-			thing causes problems.
-
-Hello, let's talk.
-Janet Anthony is pretty nifty.
-She's pretty cool, that Ms. Anthony.
-Are we real?
-You don't say.
-I do say.
-fear me;
-bees?
-Interesting, tell me more.
-bees?
-Hmmm.
-BEES?
-Interesting, tell me more.
-BEEEEES?
-You don't say.
-BEEEEEEEEEES?
-You don't say.
-BEEEEEEEEEEEEEEEEES?
-Hmmm.
-bee
-fear me;
-fear me!;
-fear me;
-
-Hmmm.
-hmmm
-You don't say.
-hmmmmmmm
-fear me;
-HMMMMMMMMMM
-Interesting, tell me more.
-just waiting on the last response
-BEES.
-and there it is
-fear me;
-
-*/
