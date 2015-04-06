@@ -31,7 +31,7 @@ public class Magpie2
 	public String getResponse(String statement)
 	{
 		String response = "";
-		if (findKeyword(statement, "no", 0) >= 0)
+		if (statement.findKeyword(statement, "no", 0) >= 0)
 		{
 			response = "Why so negative?";
 		}
@@ -92,10 +92,6 @@ public class Magpie2
 		else if (whichResponse == 5)
 		{
 			response = "BEES.";
-		}
-			return response;
-		}
-		
 			
 		private int findKeyword(String statement, String goal, int startPos)
 			{
@@ -123,10 +119,15 @@ public class Magpie2
 					}
 					psn = phrase.indexOf(goal, psn + 1);
 				}
+			}
 		return -1;
+		}
+
+		return response;
 	}
-}
 	
+	
+}
 /*
 1st Question - One could use an Array List to
 			store a set of combination responses

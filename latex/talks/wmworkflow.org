@@ -1,0 +1,20 @@
+* Abstract
+* Window Management
+** Standard
+	Desktop metaphors, DEs, and floating WMs
+	Menus and GUIs
+** Tiling
+	Tiling WMs
+	Keybinds, lacks mouse use
+** Dynamic
+	Technically both, usually feels more like one
+	or the other.
+* Other Productivity tools
+** DE menus
+	Reminiscent of the Start Menu
+	GUI, if you don't know what's on the computer,
+	it's great.
+** Bars
+	Useful for system monitoring, and for things like
+
+* Eyecandy
