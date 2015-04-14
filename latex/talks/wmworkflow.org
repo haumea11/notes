@@ -1,6 +1,6 @@
 * Abstract
 * Window Management
-** Standard
+** Standard (Stacking or Floating)
 	Desktop metaphors, DEs, and floating WMs
 	Menus and GUIs
 ** Tiling
@@ -16,5 +16,17 @@
 	it's great.
 ** Bars
 	Useful for system monitoring, and for things like
+	clocks.  I tend to hide them, but it's personal
+	preference.
 
 * Eyecandy
+** The fun part - compositors
+	Compositors can do a lot of interesting things.
+	Current favorite in the "make your tiling wm
+	loo pretty" community seems to be compton, a 
+	fork of a fork of xcompmgr.
+
+** Other stuff I guess
+	Modern DEs tend to put a lot of effort into
+	the "polish" side of eyecandy.  This takes 
+	a lot of resources but it looks nice. 
