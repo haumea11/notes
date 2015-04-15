@@ -13,4 +13,55 @@
 	\item Drawing out a slope field by hand is tedious and unpleasant, so don't
 		do it unless you have to.
 \end{enumerate}
+\subsection{Tuesday, 14th April}
+\begin{enumerate}
+	\item Continuing from April Fools' Day:
+		\begin{align}
+			\setcounter{equation}{0}
+			\frac{dy}{dx} &= 4xy \\
+			\int_{}^{}\frac{1}{y}dy &= \int_{}^{}4xdx \\
+			\ln y &= 2x^2+C_1 \\
+			y &= Ce^{2x^2}
+		\end{align}
+	\item $\frac{dy}{dt}$ is the same as a rate of change, but it's also a part
+		of a differential equation.
+		\begin{align}
+			\setcounter{equation}{0}
+			\frac{dy}{dt} &= ky \\
+			\int \frac{1}{y}dy &= kdt \\
+			ln y &= kt+c \\
+			y &= Ce^{kt}
+		\end{align}
+	\item {\bf Growth and Decay} gives us the equation $y = Ce^{kt}$ where 
+		$C$ is the initial value, $k$ is the constant of proportionality, $e$ is
+		$e$, and $t$ is time.  If $k$ is positive, it is growing, and if negative,
+		it is decaying.
+	\item In many problems using growth and decay, we want to first find k.
+		\begin{align}
+			\setcounter{equation}{0}
+			4 &= Ce^{2k}\\
+			4 &= 2e^{2k}\\
+			2 &= e^{2k} \\
+			\ln 2 &= \ln e^{2k} \\
+			\frac{1}{2} \ln 2 &= k
+		\end{align}
+	\item Continuing on, using this fact:
+		\begin{align}
+			\setcounter{equation}{0}
+			y &= 2e^{\frac{t}{2}\ln 2\\
+				&= e^{\ln 2^{\frac{t}{2}}} \\
+				&= 2(2^{\frac{t}{2} \\
+				&= 2(2^{\frac{3}{2}})
+		\end{align}
+	\item This sort of thing can be applied as well to half-lives.
+		\begin{align}
+			\setcounter{equation}{0}
+			y &= Ce^{24100k} \\
+			\frac{y}{c} &= e^{24100k} \\
+			\ln \frac{1}{2} &= 24100k \\
+			k &= \frac{\ln \frac{1}{2}}{24100}
+		\end{align}
+		if $k$ is half-life, then $k=\frac{ln\frac{1}{2}}{h}$ and if k is a
+		constant of proportionality then h is $\frac{ln\frac{1}{2}}{k}$.
+\end{enumerate}
 \end{document}
