@@ -1,0 +1,90 @@
+Hey everyone, I'm John Markiewicz (known on the IRC as EDT,) and I'm
+here today to talk to you about window management.
+
+Since this is a lightning talk, I won't be able to cover everything 
+in depth about the topic at hand.  I'll answer any questions at the
+end of the talk.
+
+So, how many of you here use linux?
+
+Of you, how many either don't know what I mean when I say "desktop
+environment," or use the desktop environment that came with your
+distro?
+
+So today I'm going to talk about window management, and the tools
+surrounding it, but in order to talk about that I first have to
+talk about Desktop Environments.  [Cue first photo]  This is KDE-
+wait.  This is KDE from back when the K stood for "Kool."  If you
+don't believe me, look it up.  It's true.  Anyway...
+
+[Cue next photo] This is KDE, which is a modern desktop environment
+using Qt.  It's fairly flashy, and has several fancy compositing
+effects.  This means as far as desktop environments go, KDE is very
+resource-intensive to run.  On a powerful computer, it looks nice
+and feels smooth, but some users don't like to use resources for 
+a lot of the eyecandy and features (or bloat) included in a thing
+like KDE.
+
+[Cue next photo] This is Cinnamon, which is a desktop environment
+originally developed for use in Linux Mint.  It is a fork of GNOME,
+and has developed a reputation with many community members as an
+improvement on the UI of GNOME.  Cinnamon is a little less resource
+heavy than GNOME is, but still has a lot of the features (or bloat)
+that some users can't stand.
+
+[Cue next photo] This is Xfce, which is often noted to be a very 
+efficient Desktop Environment for low-resource machines.  If you
+like the way other desktop environments do things, but don't really
+care if you get the flare they tend to do it with, Xfce is a very
+good choice and can actually be made to look very nice while taking
+a very small amount of resources to run.
+
+[Cue next photo] However, some people want (or need) a more minimal
+system, that uses less of their computer.  The graph up on the
+projector isn't to scale, but it has names and amount of memory
+it uses running.  As you can see, Xfce is lighter than Cinnamon, 
+which is lighter than Gnome, which is lighter than KDE.  When 
+KDE uses 200MB and something like dwm is using 1MB, there's 
+probably something different about a program like dwm.  The dramatic
+decrease in memory usage from a desktop environment (even a lighter
+one like MATE or LXDE) to a window manager like i3 or openbox can
+make a huge difference on lower end computers, and help users with
+demanding workloads get the extra bit of power out of their hardware.
+Window managers take a bit more work to get running, often don't have
+much more than a simple bar if that out of the box, and are less
+commonly used than desktop environments, but they have an effect on
+workflow of the user and resources available to the computer.
+
+[Cue next photo] This is an example of a themed dwm install.  The 
+look of window managers tends to be more minimal and simple than the 
+look of their desktop environment counterparts, although either can
+be made to look very fancy or very plain.
+
+[Cue next photo] This is openbox with a very customized conky setup.
+A properly configured openbox install tends to feel a lot like a
+regular DE, thanks in no small part to the graphical menu openbox 
+contains.  If anyone here has used Crunchbang, or heard of it, it 
+was a distribution that shipped with Openbox by default.
+
+[Cue next photo] This is 2bwm, a fairly new window manager.  It
+is stacking, not tiling, which I'll get to here in a second.  By
+default, a lot of these window managers come looking pretty boring,
+but after a bit of tweaking they really start to look nice and 
+still keep most of the minimal resource use they have as compared
+to desktop environments.
+
+Now, there are two major kinds of window manager: stacking, also known
+as floating, and tiling, also known as managed.  A lot of well-known
+window managers are tiling, as this is usually buried if available at
+all in desktop environments.  Many window managers allow the use of
+either stacking or tiling window management as the user feels is
+needed.  These are called dynamic window managers.  Often lighter
+window managers will include more customizable and better integrated
+keyboard navigation as compared to Desktop Environments.
+
+Overall, what window manager or desktop environment someone uses is
+entirely up to them.  Hopefully, though, in the future, you are more
+informed about your options 
+
+[Show off personal window management, take questions, generally 
+be happy.]
