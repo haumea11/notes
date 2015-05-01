@@ -1,0 +1,8 @@
+
+public class arrayxamples {
+public static void main(String[] args){
+	char[][] good = new char[4][4];
+	good[3][3] = 'a';
+	System.out.print(good);
+}
+}
