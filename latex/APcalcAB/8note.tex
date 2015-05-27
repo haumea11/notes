@@ -1,0 +1,81 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\begin{document}
+\title{Notes on Chapter 8}
+\author{John Markiewicz}
+\date{8 May 2015}
+\maketitle
+\section{Integration by Parts, Example problems.}
+
+\section{Trigonometric Integrals}
+\subsection{Problems in the lesson}
+\begin{enumerate}
+	\item 
+		\begin{align}
+			\setcounter{equation}{0}
+				\int \sin x \cos x dx  &= \frac{1}{2}\sin ^2 x +c \\
+				u = \sin x \qquad du &= \cos x dx
+		\end{align}
+	\item 
+		\begin{align}
+			\setcounter{equation}{0}
+			\int \sin ^2 x \cos x dx &= \frac{1}{3}\sin ^3 x + c\\
+			u = \sin x \qquad du &= \cos x dx
+		\end{align}
+	\item 
+		\begin{align}
+			\setcounter{equation}{0}
+			\int \sin ^3 x \cos ^2 x dx &=  \\
+			\int (1-u^2) u^2 du &= \\
+			-\frac{1}{3} \cos ^3 x + \frac{1}{5} \cos ^5 x + c \\
+			u = \cos x \qquad du &= \sin x
+		\end{align}
+	\item In cases where there is a function taking the form $\int \sin ^m x 
+		\cos ^n x dx$ where one is odd and one is even, let $u =$ the one with the 
+		even power.
+		\begin{align}
+			\setcounter{equation}{0}
+			\int \sin ^3 x \cos ^3 x dx &= \\
+			\int u^3(1-u^2)du &= \\
+			\int (u^3-u^5) du &= \\
+			\frac{1}{4} \sin ^4 x - \frac{1}{6}\sin ^6 x + c
+		\end{align}
+	\item In cases where both are even, use the fact that: \[
+			\sin ^2 x = \frac{1-\cos 2x}{2} = \frac{1}{2}\cos 2x
+		\]
+	\item So then in the case:
+		\begin{align}
+			\setcounter{equation}{0}
+			\int \sin ^2 x dx &= \int \left(\frac{1}{2} - \frac{1}{2}\cos 2x\right) dx \\
+												&= \frac{1}{2}x - \frac{1}{4}\sin 2x +c
+		\end{align}
+\end{enumerate}
+\subsection{Problems from the Homework}
+\begin{enumerate}
+	\item[9. ] \[
+			\int \sin ^5 x \cos ^2 x dx
+		\]
+		Let $u = \cos x$ and $du = \sin x dx$. \[
+			\int u^2 \sin ^4 x dx = \int u^2 (1-u^2)^2 du
+		\]
+		Resulting in: \[
+			\frac{1}{3} \cos ^3 x + \frac{2}{5} \cos ^5 x - \frac{1}{7} \cos ^7 x + c
+		\]
+	\item[11. ] \[
+			\int \cos ^3 \theta \sqrt{sin \theta} d\theta
+		\]
+		let $u = sin \theta$ and $du = \cos \theta d \theta$
+\end{enumerate}
+\subsection{Double Angle Formulae}
+	These come in handy in this sort of work.  $\sin 2x = 2 \sin x \cos x$ so 
+	$ \int \left( \sin x \cos x \right) ^2 dx = \int \left(\frac{1}{2}\sin 2x)^2
+		dx$.
+
+\subsection{More Trig}
+\begin{itemize}
+	\item Secant to an odd power implies integration by parts, at least if it is 
+		by itself.
+	\item Tangent raised to a power greater than one means at some point is going
+		to be secant x.
+\end{itemize}
+\end{document}
