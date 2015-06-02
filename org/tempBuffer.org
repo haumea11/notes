@@ -1,7 +1,0 @@
-* Buffer Clearing for 15.02.17
-** C-c, C-p, C-b for inline LaTeX rendering in emacs Auctex
-** Ben Folds
-** Odesk, Elance
-** Eric IDE for Django
-** systemctl reload dbus
-** murmurd -ini /etc/murmur.ini -supw <password desired>

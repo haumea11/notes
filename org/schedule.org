@@ -1,4 +1,0 @@
-* Recurring Events
-** School-related
-*** School Day 					 :schedule::recurring::daily:
-    <2015-02-16 Mon>--<2015-02-21 Fri>
