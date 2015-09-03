@@ -1,0 +1,3 @@
+ \[
+    \frac{d}{dx}\int_{a}^{x}f(t)dt = f(x)
+

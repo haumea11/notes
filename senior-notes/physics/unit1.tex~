@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[rm]{roboto}
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{document}
+\section{Unit 1}
+\subsection{Change and the Scientific Method}
+\begin{itemize}
+	\item The change in the Crab Nebula was formed by an exploding star.  This
+		was found throught the \underline{Scientific Method}.  
+	\item To understand change, one must understand the types of change.
+		\begin{itemize}
+			\item Faster, or slower.
+			\item Visible, or invisible.
+			\item Destructive, or peaceful.
+			\item Lasting, or fleeting.
+			\item Monumental, or small.
+			\item Physical, or chemical.
+			\item Biological, or inert.
+		\end{itemize}
+	\item The scientific method is a method for studying change.
+	\item There are steps, obviously.
+		\begin{enumerate}
+			\item Observe and question
+			\item Research and gather information
+			\item Form a hypothesis
+			\item Experiment, to design a test for the hypothesis
+			\item Data and Analysis, in which experiment is run, and data is gathered
+				and organized.
+			\item Conclusion.
+		\end{enumerate}
+	\item A theory is an hypothesis proven valid under all conditions and
+		scrutiny.
+	\item A law is a theory proven even more valid.  It is ``infallible'' which
+		is a super loaded term and I disapprove.
+\end{itemize}
+\subsection{Scientific Notation}
+\begin{itemize}
+	\item Pretty simple stuff.  A ``Standardized way of expressing values in
+		science, consisting of significant figures and a power of ten as well as a
+		unit.''
+	\item Addition and subtraction go with decimal, Multiplication and division
+		run with lowest sig figs.
+\end{itemize}
+\subsection{Data}
+	{\bf Data} is Quantified attributes or characteristics of an item in an event
+	of change---length, mass, time, or force.
+
+	\begin{center}
+	\begin{tabular}{||| c || c | c | c | c |||}
+		\hline \hline
+		MKS		& Meter				& Kilogram	        & Second		& Newton \\
+		\hline \hline
+		CGS 	        & Centimeter	                & Gram			& Second		& Dyne	 \\
+		\hline \hline
+		B.E.	        & Foot				& Slug			& Second		& Pound	 \\
+		\hline \hline
+	\end{tabular}
+	\end{center}
+
+	\begin{itemize}
+		\item Precision is data aligning with data, accuracy is data aligning with 
+			the	truth.
+		\item Measurement is a comparison to a standard.
+	\end{itemize}
+\subsection{Dimensional Analysis}
+	\begin{tabular}{||| c || c |||}
+		\hline \hline
+		Quantity                        & Dimension \\
+		\hline \hline
+		Distance 			& L \\
+		\hline \hline
+		Area 			        & L$^2$ \\
+		\hline \hline
+		Volume 				& L$^3$ \\
+		\hline \hline
+	\end{tabular}
+	\[ x = vt + x_{0} \]
+\end{document}

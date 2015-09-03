@@ -1,0 +1,40 @@
+\message{ !name(unit1.tex)}\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[rm]{roboto}
+\usepackage{amsmath}
+
+\begin{document}
+
+\message{ !name(unit1.tex) !offset(34) }
+    \subsection{Other Important Properties}
+    \begin{itemize}
+      \item Integral from a to b is the same as the opposite of the integral from
+        b to a
+      \item Middle points may work.
+    \end{itemize}
+    \[
+        \frac{d}{dx} \int_{1}^{x}3t^2dt = 3x^2
+    \]
+    \[
+        \frac{d}{dx}\int_{x}^{1}2tdt = -2x
+    \]
+    Then there's:
+    \[
+        \frac{d}{dx}\int_{1}^{x}xt\ dt \\
+    \]
+    which comes out to
+    \[
+        \frac{d}{dx}\left(x\left(\frac{1}{2} x^2 - \frac{1}{2}\right)\right)
+    \]
+    \[
+        \frac{3}{2}x^2-\frac{1}{2}
+    \]
+    But what if, rather than from 1 to $x$, it goes from 1 to $x^2$?  Short
+    answer: u-substitution.
+    \[
+        \frac{dy}{dx} = \frac{dy}{du}\  \frac{du}{dx}
+    \]
+\message{ !name(unit1.tex) !offset(61) }
+
+\end{document}

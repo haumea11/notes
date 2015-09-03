@@ -1,0 +1,23 @@
+* June 2015
+** 15 June - 21 June
+*** DONE Contact Jeff of C. Express			   :computer_express:
+  DEADLINE: <2015-06-21 Sun>
+  Thinkpad X200t shipment, or something.  His guys don't want to work on it 
+  because they're a bunch of wusses.
+  
+*** TODO Learn About FreeBSD		                    :personal:BSD:OS:
+  DEADLINE: <2015-06-21 Sun>
+  I want to understand what makes the BSDs a worthy OS for servers.  And what
+  makes for a good server.
+
+*** TODO Plan a Server Build (Ongoing)		   :personal:server:hardware:
+  DEADLINE: <2015-06-27 Sat>
+  Plan a simple server build.  No need for graphics; aim is stability, quiet
+  Operation, and general usability.  Plans to be headless, since SSH is the
+  best.
+*** TODO Hiragana Memorization				  :personal:japanese:
+  DEADLINE:<2015-06-27 Sat>
+  Pretty Straightforward.  I want to know all the hiragana and possibly begin
+  work on Kanji by this point.  Not hard.
+
+

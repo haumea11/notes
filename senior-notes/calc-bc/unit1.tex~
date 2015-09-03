@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[rm]{roboto}
+\usepackage{amsmath}
+
+\begin{document}
+    \subsection{Intro to Area}
+    Finding the area under the curve is done through a sum of rectangles, where
+    the number of rectangles is n and n goes to infinity.
+
+    \subsection{Summations}
+    The summation of two things can be broken apart if the things are added or
+    subtracted.  Similar to integrals.
+
+    From 1 to n summed is $\frac{n(n+1)}{2}$.  From $1^2$ to $n^2$ summed is
+    $\frac{n(n+1)(2n+1)}{6}$.  Cubed is $\left[\frac{n(n+1)}{2}\right]$.
+
+\section{Section 4.3}
+
+    \subsection{First Fundamental Theorem of Calculus}
+    Let $f$ be continuous on the closed interval $[a,b]$ and $x$ be in $(a,b)$.
+    \[
+            \frac{d}{dx}\int_{a}^{x}f(t)dt = f(x)
+    \]
+    This is fundamental because:
+    \begin{itemize}
+            \item Every continuous function is a derivative of another function.
+            \item Every continuous function has an antiderivative.
+            \item Integration and differentiation are reverse operands.
+    \end{itemize}
+    \subsection{Comparison Property}
+    If $f$ and $g$ are integrable on $[a,b]$ and if $f(x)<=g(x)$ for all $x$ in
+    $[a,b]$ then:
+    \[
+            \int_{a}^{b}f(x)dx <= \int_{a}^{b}g(x)dx
+    \]
+    \subsection{Linearity of Definite Integrals}
+    Important about definite integrals:
+    \begin{itemize}
+      \item Constants may be moved out front.
+      \item Sums and differences may be moved into separate integrals.
+    \end{itemize}
+    \subsection{Other Important Properties}
+    \begin{itemize}
+      \item Integral from a to b is the same as the opposite of the integral from
+        b to a
+      \item Middle points may work.
+    \end{itemize}
+    \[
+        \frac{d}{dx} \int_{1}^{x}3t^2dt = 3x^2
+    \]
+    \[
+        \frac{d}{dx}\int_{x}^{1}2tdt = -2x
+    \]
+    Then there's:
+    \[
+        \frac{d}{dx}\int_{1}^{x}xt\ dt \\
+    \]
+    which comes out to
+    \[
+        \frac{d}{dx}\left(x\left(\frac{1}{2} x^2 - \frac{1}{2}\right)\right)
+    \]
+    \[
+        \frac{3}{2}x^2-\frac{1}{2}
+    \]
+    But what if, rather than from 1 to $x$, it goes from 1 to $x^2$?  Short
+    answer: u-substitution.
+    \[
+        \frac{dy}{dx} = \frac{dy}{du}\  \frac{du}{dx}
+    \]
+\section{Section 4.5 - The Mean Value Theorem}
+    {\bf The Mean Value Theorem for Derivatives} is the statement that the slope
+    of the endpoints of a section of a continuous differentiable function will
+    appear somewhere on the curve.  In math:
+    \[
+        \frac{f(a)-f(b)}{a-b} = f^\prime (c)
+    \]
+    Such that $c$ is between $a$ and $b$.
+
+    {\bf The Mean value Theorem for Integrals} states that if $f$ is continuous on
+    $(a, b)$ then there is a number c between a and b such that:
+    \[
+        f(c) = \frac{1}{b-a} \int _a ^b f(t)dt
+    \]
+    This allows one to take a tricky shape and make it an easy rectangle.  There
+    may be multiple values of c.
+
+\subsection{The Symmetry Theorem}
+    If a function is even, the integral from -a to a is the same as 2 times the
+    integral from 0 to a.
+
+    If a function is odd, the integral from -a to a is 0.
+
+    If a function is periodic with a period p, then all periods have the same
+    integral.  Do with this what you will.
+
+    This doesn't have to be about the y-axis, it can also be used in such scenarios
+    as the absolute value functions.
+    
+\end{document}

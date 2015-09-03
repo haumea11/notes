@@ -1,0 +1,257 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=prv_unit1 2015.9.3)  3 SEP 2015 10:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_unit1 _region_.tex
+(./_region_.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2014/09/29 v1.4h Standard LaTeX document class
+  size11.clo    2014/09/29 v1.4h Standard LaTeX file (size option)
+ fontenc.sty
+   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
+  roboto.sty    2014/08/12 (Bob Tennent) Supports Roboto fonts for all LaTeX en
+gines.
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+textcomp.sty    2005/09/27 v1.99g Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+ fontenc.sty
+fontaxes.sty    2014/03/23 v1.0d Font selection axes
+mweights.sty    2013/07/21 (Bob Tennent) Support package for multiple-weight fo
+nt packages. 
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+T1RobotoSlab-LF.fd    2014/07/17 (autoinst) Font definitions for T1/RobotoSlab-
+LF.
+  t1cmtt.fd    2014/09/29 v2.5h Standard LaTeX font definitions
+T1Roboto-LF.fd    2014/07/17 (autoinst) Font definitions for T1/Roboto-LF.
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen112
+)
+(/usr/share/texmf/tex/latex/preview/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count100
+\hfuzz=\dimen113
+(/usr/share/texmf/tex/latex/preview/prauctex.cfg))
+(/usr/share/texmf/tex/latex/preview/prfootnotes.def)
+\pr@snippet=\count101
+\pr@box=\box28
+\pr@output=\toks21
+
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+)
+\c@mv@tabular=\count102
+\c@mv@boldtabular=\count103
+  !name(unit1.tex) !offset(34) 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.10     \subsection
+                    {Other Important Properties}
+Not a real error.
+
+LaTeX Font Info:    Font shape `T1/RobotoSlab-LF/bx/n' in size <12> not availab
+le
+(Font)              Font shape `T1/RobotoSlab-LF/b/n' tried instead on input li
+ne 10.
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(609798+160864x23592960).
+<-><->
+      
+l.10     \subsection{Other Important Properties}
+                                                
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+LaTeX Font Info:    Try loading font information for TS1+RobotoSlab-LF on input
+ line 12.
+
+(/usr/share/texmf-dist/tex/latex/roboto/TS1RobotoSlab-LF.fd
+File: TS1RobotoSlab-LF.fd 2014/07/17 (autoinst) Font definitions for TS1/Roboto
+Slab-LF.
+)
+! Preview: Snippet 2 started.
+<-><->
+      
+l.16     \[
+           
+Not a real error.
+
+! Preview: Snippet 2 ended.(1645698+0x14718017).
+<-><->
+      
+l.18     \]
+           
+Not a real error.
+
+[2]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.19     \[
+           
+Not a real error.
+
+! Preview: Snippet 3 ended.(1757838+0x14668270).
+<-><->
+      
+l.21     \]
+           
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.23     \[
+           
+Not a real error.
+
+! Preview: Snippet 4 ended.(1645698+0x13658661).
+<-><->
+      
+l.25     \]
+           
+Not a real error.
+
+[4]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.27     \[
+           
+Not a real error.
+
+! Preview: Snippet 5 ended.(1722303+0x14963475).
+<-><->
+      
+l.29     \]
+           
+Not a real error.
+
+[5]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.30     \[
+           
+Not a real error.
+
+! Preview: Snippet 6 ended.(1440190+0x13111839).
+<-><->
+      
+l.32     \]
+           
+Not a real error.
+
+[6]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.33     But what if, rather than from 1 to $
+                                             x$, it goes from 1 to $x^2$?  S...
+
+Not a real error.
+
+! Preview: Snippet 7 ended.(308974+0x410139).
+<-><->
+      
+l.33     But what if, rather than from 1 to $x$
+                                               , it goes from 1 to $x^2$?  S...
+
+Not a real error.
+
+[7]
+! Preview: Snippet 8 started.
+<-><->
+      
+l.33 ...er than from 1 to $x$, it goes from 1 to $
+                                                  x^2$?  Short
+Not a real error.
+
+! Preview: Snippet 8 ended.(598293+0x721439).
+<-><->
+      
+l.33 ...han from 1 to $x$, it goes from 1 to $x^2$
+                                                  ?  Short
+Not a real error.
+
+[8]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.35     \[
+           
+Not a real error.
+
+! Preview: Snippet 9 ended.(1476071+0x13776125).
+<-><->
+      
+l.37     \]
+           
+Not a real error.
+
+[9]  !name(unit1.tex) !offset(61) 
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 221 strings out of 491026
+ 3814 string characters out of 6112379
+ 77846 words of memory out of 5000000
+ 5731 multiletter control sequences out of 15000+600000
+ 36960 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 22i,5n,22p,200b,142s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_usdwn6.enc}</usr/share/tex
+mf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on _region_.pdf (9 pages, 60320 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
