@@ -1,0 +1,21 @@
+#+TITLE: Penny Lab
+#+AUTHOR: Ryan Mar, Sarah Marino, and John Markiewicz
+#+OPTIONS: toc:t
+
+* Hypothesis
+  The digital scale is more accurate and more precise than the
+  analogue scale.
+
+* Data
+|--------------+------+----------------+---------------+-------|
+| Penny Letter | Year | Mass (digital) | Mass (analog) | D_{a} |
+|--------------+------+----------------+---------------+-------|
+| A            | 1995 |                | 2 mg          |       |
+| B            |      |                |               |       |
+| C            |      |                |               |       |
+| D            |      |                |               |       |
+| E            |      |                |               |       |
+| F            |      |                |               |       |
+| G            |      |                |               |       |
+| H            |      |                |               |       |
+|--------------+------+----------------+---------------+-------|

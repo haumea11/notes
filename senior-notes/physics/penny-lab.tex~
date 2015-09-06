@@ -1,0 +1,61 @@
+% Created 2015-09-04 Fri 13:50
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\date{\today}
+\title{penny-lab}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 24.5.1 (Org mode 8.2.10)}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Hypothesis}
+\label{sec-1}
+The digital scale is more accurate and more precise than the
+analogue scale.
+
+\section{Data}
+\label{sec-2}
+\begin{center}
+\begin{tabular}{llr}
+ & --------------+------+----------------+---------------+------- & \\
+ & Penny Letter & Year & Mass (digital) & Mass (analog) & D$_{\text{a}}$ & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & A & 1995 &  & 2 mg &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & B &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & C &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & D &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & E &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & F &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & G &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+ & H &  &  &  &  & \\
+ & --------------+------+----------------+---------------+------- & \\
+\end{tabular}
+\end{center}
+% Emacs 24.5.1 (Org mode 8.2.10)
+\end{document}

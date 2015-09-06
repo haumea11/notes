@@ -1,0 +1,127 @@
+* TeX
+** Built-in commands
+*** TeX Editing
+C-c C-o
+    Insert ‘\begin’ and ‘\end’ for LaTeX block and position point on a
+    line between them (tex-latex-block).
+
+C-c C-e
+    Close the innermost LaTeX block not yet closed
+    (tex-close-latex-block).
+
+"
+    Insert, according to context, either ‘``’ or ‘"’ or ‘''’
+    (tex-insert-quote).
+
+C-j
+    Insert a paragraph break (two newlines) and check the previous
+    paragraph for unbalanced braces or dollar signs
+    (tex-terminate-paragraph).
+
+M-x tex-validate-region
+    Check each paragraph in the region for unbalanced braces or dollar
+    signs.
+
+C-c {
+    Insert ‘{}’ and position point between them (tex-insert-braces). 
+
+C-c }
+    Move forward past the next unmatched close brace (up-list). 
+
+*** TeX Printing
+C-c C-b
+    Invoke TeX on the entire current buffer (tex-buffer).
+
+C-c C-r
+    Invoke TeX on the current region, together with the buffer’s
+    header (tex-region).
+
+C-c C-f
+    Invoke TeX on the current file (tex-file).
+
+C-c C-v
+    Preview the output from the last C-c C-r, C-c C-b, or C-c C-f
+    command (tex-view).
+
+C-c C-p
+    Print the output from the last C-c C-b, C-c C-r, or C-c C-f
+    command (tex-print).
+
+C-c TAB
+    Invoke BibTeX on the current file (tex-bibtex-file). 
+
+C-c C-l
+    Recenter the window showing output from TeX so that the last line
+    can be seen (tex-recenter-output-buffer).
+
+C-c C-k
+    Kill the TeX subprocess (tex-kill-job). 
+
+C-c C-c
+    Invoke some other compilation command on the entire current buffer
+    (tex-compile).
+
+** AUCTeX-specific commands
+* Org
+** General Notes
+*** On embedded LaTeX
+The following snippets will be identified as LaTeX source code:
+
+    Environments of any kind1. The only requirement is that the \begin
+    statement appears on a new line, at the beginning of the line or
+    after whitespaces only.  Text within the usual LaTeX math
+    delimiters. To avoid conflicts with currency specifications,
+    single ‘$’ characters are only recognized as math delimiters if
+    the enclosed text contains at most two line breaks, is directly
+    attached to the ‘$’ characters with no whitespace in between, and
+    if the closing ‘$’ is followed by whitespace or punctuation
+    (parentheses and quotes are considered to be punctuation in this
+    context). For the other delimiters, there is no such restriction,
+    so when in doubt, use ‘\(...\)’ as inline math delimiters.
+** Commands
+*** General
+C-c a
+    Agenda command
+
+*** In an org document
+
+*** In the agenda
+v t
+    Switch to fortnight view
+
+v m 
+    Switch to month view
+
+** Examples
+*** Beamer Export Example
+     #+TITLE: Example Presentation
+     #+AUTHOR: Carsten Dominik
+     #+OPTIONS: H:2 toc:t num:t
+     #+LATEX_CLASS: beamer
+     #+LATEX_CLASS_OPTIONS: [presentation]
+     #+BEAMER_THEME: Madrid
+     #+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+     
+     * This is the first structural section
+     
+     ** Frame 1
+     *** Thanks to Eric Fraga                                           :B_block:
+         :PROPERTIES:
+         :BEAMER_COL: 0.48
+         :BEAMER_ENV: block
+         :END:
+         for the first viable Beamer setup in Org
+     *** Thanks to everyone else                                        :B_block:
+         :PROPERTIES:
+         :BEAMER_COL: 0.48
+         :BEAMER_ACT: <2->
+         :BEAMER_ENV: block
+         :END:
+         for contributing to the discussion
+     **** This will be formatted as a beamer note                       :B_note:
+          :PROPERTIES:
+          :BEAMER_env: note
+          :END:
+     ** Frame 2 (where we will not use columns)
+     *** Request
+         Please test this stuff!

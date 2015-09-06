@@ -78,5 +78,90 @@
     Beowulf wasn't always a part of his clan's best.  He started from
     nothing, much like Scyfling.  He was now going on a glorious quest of 
     honor.
+
+** The First Battle
 * Section 2
+** After the Battle
+*** Gifts for Beowulf
+    Beowulf is given great gifts for a warrior, and is told he will be
+    treated as a son.
+    
+    Beowulf shuts up Unferth by proving him completely wrong and being
+    a badass (as is characteristic of Beowulf.)  He does this so much
+    so that when he goes to fight Grendel's mother Unferth gives him
+    his sword.  For Unferth to offer his sword to Beowulf was a very
+    major act.
+
+    The sword was useless to Beowulf, but he gave it back and thanked
+    Unferth for it.
+
+*** Tracking Grendel
+    Beowulf and the Geats and the Danes, to ensure a dead Grendel,
+    track his bloody footprints.  Beowulf wants glory, and the first
+    Scop to speak of Beowulf starts telling his story in the Germanic
+    Alliterative verse.
+    
+    Beowulf can now go home, except...
+** Grendel's Mother
+*** The Attack of Grendel's Mother
+    Grendel's mother never had anything to do with them, but she is
+    grieving for her son and she wants the Weirgild for her son.  She
+    killed one warrior, which may have been all she would have taken.
+
+    Hrothgar doesn't want to take a chance.  He summons Beowulf, and
+    promises more treasure.
+    
+    Beowulf takes him up for two reasons:
+      + More glory!
+      + Beowulf also wants to avenge Hrothgar's men who have died.
+    
+    Beowulf in some sense sort of got things done.
+
+*** Grendel's Home
+    A cave underwater, with a large air pocket.  The water on the
+    surface is dark, full of creatures, and looks as though it is on
+    fire.  A deer running from a wolf will stop and face the wolf
+    before going through that water.
+
+    Beowulf fearlessly goes down.
+*** The fight with Grendel's Mother
+    See Battle Spreadsheet.
+*** After the Battle
+    The celebration is before the hall gets burned to the ground, and
+    the scop indicates that Hrothgar's kingdom will fall from failed
+    alliances.  It won't be Beowulf's fault.
+
+    The Cyclical view of history is important to this form.
+*** TODO Tuesday's Reading - to 2220
 * Section 3
+* Battle Spreadsheet
+
+|-------------------------+----------------------------+------------------------------------------------------------------+----------|
+| Aspect                  | Battle 1                   | Battle 2                                                         | Battle 3 |
+|-------------------------+----------------------------+------------------------------------------------------------------+----------|
+| Motive                  |                            | Always good.                                                     |          |
+|                         |                            |                                                                  |          |
+| Location                |                            | Underwater.                                                      |          |
+|                         |                            |                                                                  |          |
+| Fate                    |                            | Beowulf knows nothing about Fate at this point, but partway      |          |
+|                         |                            | through the battle fate helps him find the giant sword.  In      |          |
+|                         |                            | Ancient lore, giants were evil.  It took evil to fight evil,     |          |
+|                         |                            | and her blood melted the sword.                                  |          |
+|                         |                            |                                                                  |          |
+|                         |                            |                                                                  |          |
+| Circumstance            |                            | Beowulf had to swim for a day, and is fighting in her territory, |          |
+|                         |                            | so his use of weapons makes sense.  It's fair then, that he      |          |
+|                         |                            | uses weapons.                                                    |          |
+|                         |                            |                                                                  |          |
+| Difficulty              | Didn't even break a sweat  | Needed his armor to survive, and took a difficult journey to get |          |
+|                         |                            | to the battle.  More difficult, and wouldn't have survived if    |          |
+|                         |                            | he hadn't had his armor.                                         |          |
+|                         |                            |                                                                  |          |
+| Things taken            | Grendel's arm.             | Wants Grendel's head, takes Grendel's head.                      |          |
+|                         |                            |                                                                  |          |
+| Accomplishment of Goals | Killed Grendel, but didn't | Killed Grendel's mother, bringing closure.                       |          |
+|                         | actually solve problem     |                                                                  |          |
+|                         |                            |                                                                  |          |
+| Consequence             | Grendel's Mother           | None.  The water become clear when Beowulf kills Grendel's       |          |
+|                         |                            | mother.  There are no negative consequences.                     |          |
+|-------------------------+----------------------------+------------------------------------------------------------------+----------|
